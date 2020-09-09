@@ -37,19 +37,6 @@ p {
 }
 
 
-/* Responsiveness on Mobile */
-
-@media (max-width:1024px) {
-  #title {
-    text-align: center;
-  }
-
-  .iphone {
-    position: static;
-    transform: rotate(0);
-  }
-}
-
 /***************** HEADINGS **********************/
 .big-heading {
   font-family: "Montserrat";
@@ -184,4 +171,17 @@ i:hover {
 
 .footer-icon {
   padding: 30px 10px;
+}
+
+/* Responsiveness on Mobile */
+
+@media (max-width:1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
 }
